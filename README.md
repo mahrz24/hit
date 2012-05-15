@@ -1,0 +1,1 @@
+Information theory framework for Haskell using the probability library

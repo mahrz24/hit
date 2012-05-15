@@ -1,0 +1,19 @@
+Name:                hit
+Version:             0.1
+Description:         Information theory framework for Haskell using the probability library
+License:             MIT
+License-file:        LICENSE
+Author:              Malte Harder
+Maintainer:          malte.harder@gmail.com
+Build-Type:          Simple
+Cabal-Version:       >=1.6
+
+Library
+  Hs-Source-Dirs:    src
+  Build-Depends:     base >= 3 && < 5, probability, containers, array, fgl, statistics, math-functions
+  Exposed-Modules:   Numeric.Information,
+                     Numeric.Information.Distribution,
+                     Numeric.Information.IT,
+                     Numeric.Information.Util,
+                     Numeric.Information.Model,
+                     Numeric.Information.Model.IT
